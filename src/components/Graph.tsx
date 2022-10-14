@@ -41,7 +41,7 @@ const Graph = () => {
           </div>
           <div className='flex items-center space-x-1 font-medium'>
             <div className='h-2 w-2 rounded-full bg-green-200'></div>
-            <p>Internation Transfers</p>
+            <p>International Transfers</p>
           </div>
         </div>
 
