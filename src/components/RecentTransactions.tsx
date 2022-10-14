@@ -31,7 +31,7 @@ const RecentTransactions = () => {
           </ul>
         </div>
 
-        <div className='grid grid-cols-12 gap-8 py-3 px-4 text-sm border-b'>
+        <div className='grid grid-cols-12 gap-8 py-3 px-4 text-sm border-b font-medium'>
           <div className='col-span-6'>Transaction</div>
           <div className='col-span-1'>Amount</div>
           <div className='col-span-2'>Date</div>
