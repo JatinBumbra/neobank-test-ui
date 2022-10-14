@@ -10,7 +10,7 @@ const RecentTransactions = () => {
       <div className='border border-gray-300 rounded-lg'>
         <div className='flex items-center justify-between px-5 py-3 border-b'>
           <p>Recent Transactions</p>
-          <div className='p-2 px-3 border border-gray-300 flex items-center space-x-3 rounded-lg cursor-pointer transition-all hover:shadow-lg'>
+          <div className='p-2 px-3 border border-gray-300 flex items-center space-x-3 rounded-lg cursor-pointer transition-all hover:bg-gray-100 active:bg-gray-200'>
             <IoCalendarClearOutline />
             <p className='text-sm'>Select Dates</p>
           </div>
@@ -21,7 +21,7 @@ const RecentTransactions = () => {
             {filterOptions.map((option, i) => (
               <li
                 key={option}
-                className={`p-2 px-4 cursor-pointer hover:bg-gray-100 transition-all ${
+                className={`p-2 px-4 cursor-pointer hover:bg-gray-100 transition-all active:bg-gray-200 ${
                   i < filterOptions.length ? 'border-l border-gray-300' : ''
                 }`}
               >

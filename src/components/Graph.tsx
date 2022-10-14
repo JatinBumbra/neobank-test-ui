@@ -50,7 +50,7 @@ const Graph = () => {
             {filterOptions.map((option, i) => (
               <li
                 key={option}
-                className={`p-2 px-4 cursor-pointer hover:bg-gray-100 transition-all ${
+                className={`p-2 px-4 cursor-pointer hover:bg-gray-100 transition-all active:bg-gray-200 ${
                   i < filterOptions.length ? 'border-l border-gray-300' : ''
                 }`}
               >
@@ -75,7 +75,6 @@ const Graph = () => {
               },
               y: {
                 grid: {
-                  // display: false,
                   color: '#f3f4f6',
                 },
                 ticks: {
